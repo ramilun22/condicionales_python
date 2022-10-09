@@ -9,13 +9,20 @@
 
 # Ejemplos variables de texto
 
-texto_1 = '5'
-texto_2 = '7'
+texto_1 = '1'
+texto_2 = '5'
 
 # 1-Verifique cual de los dos textos es mayor alfabéticamente
 # La comparación alfabética es aquella que se logra cuando
 # se utiliza el operador mayor o menor con Strings (textos)
 # Imprima en pantalla según corresponda
+
+if texto_1 > texto_2:
+    print('{} es mayor A {}'.format(texto_1, texto_2))
+elif texto_1 < texto_2:
+    print('{} es mayor que {}'.format(texto_2, texto_1))   
+else:
+    print('{} es igual que {}'.format(texto_1, texto_2))
 
 # 2-Transforma esas variables tipo texto en variables numéricas con (int)
 # y almacénalas en nuevas variables.
@@ -23,6 +30,17 @@ texto_2 = '7'
 # utilizando los operadores correspondientes
 # ¿Cuál de las nuevas variables es mayor?
 # Imprima en pantalla según corresponda
+
+tixti_1 = int(texto_1)
+tixti_2= int(texto_2)
+
+if tixti_1 > tixti_2:
+    print('{} es mayor A {}'.format(tixti_1, tixti_2))
+elif tixti_1 < tixti_2:
+    print('{} es mayor que {}'.format(tixti_2, tixti_1))   
+else:
+    print('{} es igual que {}'.format(tixti_1, tixti_2))
+
 
 # Para pensar!
 # ¿Por qué cree que texto_2 es mayor a texto_1?
